@@ -1,12 +1,59 @@
-# React + Vite
+ TAILWINDCSS:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project recreates a modern hero section  using  "React", "TailwindCSS", and "Framer Motion". It includes a responsive layout, animated heading, typing effect, and call-to-action buttons — all coded from scratch without external UI kits.
 
-Currently, two official plugins are available:
+ Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  "Animated Headline" — “Design Made Intelligent”
+-  "Typing Animation" — For the sub-headline
+-  "Glowing Background Blobs" — Animate on all four corners
+-  "Responsive Design" — Optimized for mobile and desktop
+-  "Smooth Animations" — Handled with Framer Motion
+-  "CTA Buttons" — Appear after typing completes
+-  "Optional Looping Animation" — For continuous flow 
 
-## Expanding the ESLint configuration
+ Project Structure:
+ TAILWINDCSS/
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ └── HeroPage.jsx # Main hero component
+│ ├── App.jsx # Main application entry
+│ └── main.jsx # Renders the App to DOM
+├── .env # Environment variables 
+├── tailwind.config.js # Tailwind config
+├── postcss.config.js # PostCSS for Tailwind
+├── package.json # Project metadata and dependencies
+└── README.md # This file
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Make sure that we installed packages 
+- Node.js 
+- npm 
+
+Steps for Doing:
+
+1. Clone the Repository:
+   "git clone https://github.com/Badrinath-1230/react-vite-deploy.git"
+   "cd react-vite-deploy"
+   
+2.Install dependencies:
+  -npm install
+
+3.Run the Development Server:
+ - npm run dev
+
+Visit http://localhost:5173 to view it in  browser.
+
+Live Deployment:
+ - I used vercel for deployment and linked with github we can use the deployed link for viewing the project.
+" https://react-vite-deploy-4jhpx7xwj-vadapalli-badrinaths-projects.vercel.app/"
+
+Author:
+Vadapalli Badrinath
+GitHub: @Badrinath-1230
+
+
+
+
